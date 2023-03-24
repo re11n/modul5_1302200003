@@ -33,7 +33,7 @@ public class Program
             foreach (T data in storedData)
             {
                 int datatemp = temp + 1;
-                Console.WriteLine("Data " + datatemp + " berisi: "+ datatemp +", yang disimpan pada waktu " + inputDates[temp]);
+                Console.WriteLine("Data " + datatemp + " berisi: "+ data +", yang disimpan pada waktu " + inputDates[temp]);
                 temp++;
             }
         }
